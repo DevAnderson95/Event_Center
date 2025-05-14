@@ -1,0 +1,94 @@
+.links{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    text;
+   
+}
+
+
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1444459094717-a39f1e3e0903?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjZXxlbnwwfHwwfHx8MA%3D%3D);
+    height: 200px;
+    width:100%;
+    background-size: cover;
+    
+    
+}
+
+h1{
+    color: black;
+    background-color: yellow;
+    font-size: 55px;
+    height: 70px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body{
+    background-color: lightblue;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    
+    
+}
+
+
+.images{
+    display: flex;
+    height: 250px;
+    
+    flex-direction: row;
+    
+    justify-content: space-between;
+    
+}
+
+p{
+    
+    display:flex;
+    font-size: 30px;
+    text-align:center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.slogan{
+    display: flex;
+}
+
+@media screen (max-width: 600px) {
+    
+}
+
+.picture-text{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+.about ,img{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
