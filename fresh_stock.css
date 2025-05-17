@@ -2,10 +2,14 @@
     display: flex;
     justify-content: space-between;
     background-color: lightblue;
-    text;
+    text-align: center;
    
 }
 
+.form{
+    display: block;
+    text-align: center;
+}
 
 header{
     display: flex;
@@ -21,10 +25,12 @@ header{
 
 h1{
     color: black;
-    background-color: yellow;
+    background-color: rgb(247, 231, 138);
     font-size: 55px;
     height: 70px;
+    padding: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 body{
@@ -32,7 +38,7 @@ body{
 }
 
 .image-container{
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
@@ -43,18 +49,17 @@ body{
 
 
 .images{
-    display: flex;
-    height: 250px;
-    
+    display: inline;
+    font-size: 40px;
     flex-direction: row;
-    
     justify-content: space-between;
+    height: 30px;
     
 }
 
 p{
     
-    display:flex;
+    display:block;
     font-size: 30px;
     text-align:center;
     justify-content: space-between;
@@ -68,17 +73,12 @@ p{
     display: flex;
 }
 
-@media screen (max-width: 600px) {
-    
+@media screen and (max-width: 600px) {
+    .image-container{
+        flex-direction: column;
+    }
 }
 
-.picture-text{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin-bottom: 0px;
-    
-}
 
 .about ,img{
     display: flex;
@@ -87,8 +87,90 @@ p{
 }
 
 form{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: block;
+    justify-content:left;
+    text-align:left;
     flex-direction: column;
 }
+
+img{
+    display: block;  
+    width: 45%;  
+    height: 550px;
+    align-items: center;
+    margin-left: 25%;
+    border-radius: 15px;
+}
+
+
+
+.about-title, p{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 55px;
+}
+
+
+.b{
+    font-size: 40px;
+}
+
+table{
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+footer{
+    background-color: rgb(247, 231, 138);
+    text-align: center;
+    padding-top: px;
+}
+
+section, img{
+    margin-top: 70px;
+}
+
+button{
+    text-align:  center;
+    font-size: 40px; 
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up{
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 30px;
+    width: 150px;
+    
+}
+
+H2{
+    text-align: center;
+    font-size: 30px;
+    display: inline;
+}
+
+form{
+    
+    align-items: flex-start;
+    border: 2px solid #000;
+    background-color: rgb(247, 231, 138);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+

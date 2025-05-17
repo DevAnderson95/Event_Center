@@ -3,56 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TopNotchFitness Home Page</title>
+    <title>Fresh Stock Menu Page</title>
 </head>
 <link rel="stylesheet" href="fresh_stock.css">
 <body>
     <div class="navbar">
-        <!-- About us -->
-        <!-- Add CSS styling for a tags -> nav a -->
-        <div>
-            <ul class="links">
-                    <!-- href - link to the html page we want to navigate to -->
-                    <!-- Text is title of link -->
-                
-                <a href="fresh_stock.html"><button><h2>Home</h2></button></a>
-                        <!-- Sign Up -->
-        
-                <li><a href="fresh_sign_up.html"><button><h2>Sign Up</h2></button></a></li>
-        
-                        <!-- Login -->
-        
-                <li><a href="fresh_menus.html"><button><h2>Sales</h2></button></a></li>
-        
-                <li><a href="fresh_about.html"><button><h2>About Us</h2></button></a></li>
-            </ul>
-        </div>
+        <ul class="links">
+                <!-- href - link to the html page we want to navigate to -->
+                <!-- Text is title of link -->
+            
+            <a href="fresh_stock.html" style="display: flex;"><h2>Home</h2></a>
+                    <!-- Sign Up -->
+    
+            <a href="fresh__sign_up.html" style="display: flex;"><h2>Sign Up</h2></a>
+    
+                    <!-- Menu -->
+    
+            <a href="fresh_menus.html" style="display: flex;"><h2>Products</h2></a>
+    
+            <a href="fresh_about.html" style="display: flex;"><h2>About Us</h2></a>
+        </ul>
+    </div>
+        <header>
+            <h1 class="text-shadow">Produce Menus</h1>
+        </header>
 
         <section class="menus" id="fruits">
             <img src="https://images.unsplash.com/photo-1590671911659-3ce95e8b91c5?q=80&w=2274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Produce Stand">
-            <h2>Fruits</h2>
+            <div>
+                <h2 style="display: flex; justify-content: center; margin-left: 45%;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Fruits</h2>
             
-            <table border="1">
-                <tr>
-                    <th>Product</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
-                </tr>
-                <tr>
-                    <td>Apples</td>
-                    <td>$1.50</td>
-                    <td>1 Lb</td>
-                </tr>
-                <tr>
-                    <td>Grapes</td>
-                    <td>$2.25</td>
-                    <td>1 Lb</td>
-                </tr>
-                <tr>
-                    <td>Cherries</td>
-                    <td>$6.00</td>
-                    <td>1 Lb</td>
-                </tr>
+                <table border="1">
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                    <tr>
+                        <td>Apples</td>
+                        <td>$1.50</td>
+                        <td>1 Lb</td>
+                    </tr>
+                    <tr>
+                        <td>Grapes</td>
+                        <td>$2.25</td>
+                        <td>1 Lb</td>
+                    </tr>
+                        <tr>
+                        <td>Cherries</td>
+                        <td>$6.00</td>
+                        <td>1 Lb</td>
+                    </tr>
                 <tr>
                     <td>Strawberries</td>
                     <td>$4.60</td>
@@ -64,10 +65,12 @@
                     <td>4 Lbs</td>
                 </tr>
             </table>
+        </div>
+    </section>
+    <section class="menus" id="vegetables"></section>
+            <h2 style="display: flex; margin-left: 47%;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Vegetables</h2>
 
-            <h2>Vegetables</h2>
-
-            <table>
+            <table border="1">
                 <tr>
                     <th>Product</th>
                     <th>Price</th>
@@ -96,4 +99,8 @@
             </table>
         </section>
                
+        <footer>
+            <p>Sign up for customer discounts of up to 50% off!</p>
+            <button><a href="fresh__sign_up.html">Click here!</a></button>
+        </footer>
     </div>

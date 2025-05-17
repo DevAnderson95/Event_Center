@@ -3,56 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fresh Stock About Page</title>
+    <title>Fresh Stock Sign Up Page</title>
 </head>
 <link rel="stylesheet" href="fresh_stock.css">
 <body>
     <div class="navbar">
-        <!-- About us -->
-        <!-- Add CSS styling for a tags -> nav a -->
-        <div>
-            <ul class="links">
-                    <!-- href - link to the html page we want to navigate to -->
-                    <!-- Text is title of link -->
-                
-                <li><a href="fresh_stock.html"><button><h2>Home</h2></button></a></li>
-                        <!-- Sign Up -->
-        
-                <li><a href="fresh_sign_up.html"><button><h2>Sign Up</h2></button></a></li>
-        
-                        <!-- Login -->
-        
-                <li><a href="fresh_menus.html"><button><h2>Login</h2></button></a></li>
-        
-                <li><a href="fresh_about.html"><button><h2>About Us</h2></button></a></li>
-            </ul>
-        </div>
+        <ul class="links">
+                <!-- href - link to the html page we want to navigate to -->
+                <!-- Text is title of link -->
+            
+            <a href="fresh_stock.html" style="display: flex;"><h2>Home</h2></a>
+                    <!-- Sign Up -->
+    
+            <a href="fresh__sign_up.html" style="display: flex;"><h2>Sign Up</h2></a>
+    
+                    <!-- Menu -->
+    
+            <a href="fresh_menus.html" style="display: flex;"><h2>Products</h2></a>
+    
+            <a href="fresh_about.html" style="display: flex;"><h2>About Us</h2></a>
+        </ul>
+    </div>
+    <header>
+        <h1 class="text-shadow">Sign Up For Sales & Specials</h1>
+    </header>
+    <section>
 
-       <section>
-        <form action="submit" method="post">
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required
-            placeholder="Enter your name">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email"
-            placeholder="Enter your email">
-            <label for="mobile">Mobile Number:</label>
-            <input type="number" name="mobile" id="mobile">
+                        <p style="display: flex; align-items: flex-start; justify-content: flex-start; margin-bottom: 10px;">Membership Sign Up </p>
+            <form action="submit" method="post"  style="display: flex; align-items:flex-start; margin-right:60%; font-size: 29px;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required
+                placeholder="Enter your name">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email"
+                placeholder="Enter your email">
+                <label for="mobile">Mobile Number:</label>
+                <input type="text" name="mobile" id="mobile"
+                placeholder="Mobile Number">
             
+            </form>
+            <form style="margin-right: 60%; align-items: center; justify-content: center; font-size: 30px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                <label for="source">How did you hear about us? </label>
+                <label for="google">Google</label>
+                <input type="radio" name="source" id="google" value="google">
             
-            <label for="source">How did you hear about us? </label>
-            <label for="google">Google</label>
-            <input type="radio" name="source" id="google" value="google">
+                <label for="facebook">Facebook</label>
+                <input type="radio" name="source" id="facebook" value="facebook">
             
-            <label for="facebook">Facebook</label>
-            <input type="radio" name="source" id="facebook" value="facebook">
-            
-            <label for="twitter">Twitter</label>
-            <input type="radio" name="source" id="twitter" value="twitter">
-            <label for="instagram">Instagram</label>
-            <input type="radio" name="source" id="instagram" value="instagram">
+                <label for="twitter">Twitter</label>
+                <input type="radio" name="source" id="twitter" value="twitter">
+                <label for="instagram">Instagram</label>
+                <input type="radio" name="source" id="instagram" value="instagram">
 
             
-            
-        </form>
-       </section>
+            <input type="submit" value="Submit">
+            </form>
+        
+    </section>
