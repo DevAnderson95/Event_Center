@@ -3,6 +3,7 @@
     justify-content: space-between;
     background-color: lightblue;
     text-align: center;
+    
    
 }
 
@@ -75,6 +76,9 @@ p{
 
 @media screen and (max-width: 600px) {
     .image-container{
+        flex-direction: column;
+    }
+    .links{
         flex-direction: column;
     }
 }
